@@ -1,0 +1,103 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+
+
+}
+body{
+background: rgba(0, 0, 0, 0.5) url('food.jpg') center fixed  ;
+background-size: cover;
+background-blend-mode: darken;
+
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items:center;
+background: rgba(219, 214, 214, 0.493);
+
+
+}
+header h1{
+    color:white;
+    padding-left: 20px;
+}
+
+nav ul li{
+display: inline-block;
+padding: 20px;
+list-style: none;
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+.a{
+    background: orange;
+    border-radius: 50px;
+    line-height: 20px;
+
+}
+nav ul li a:hover{
+    font-size: 30px;
+    background-color: rgb(218, 35, 35);
+    color:yellow;
+    transition: 0.5s;
+    border-radius: 50px;
+}
+main{
+    position: absolute;
+    top:40%;
+    color:white;
+
+}
+main h2{
+    margin: 20px;
+    text-align: center;
+    color: orange;
+    font-family:unset;
+}
+main h1{
+    text-align: center;
+    color: yellow;
+    font-family:'Courier New', Courier, monospace;
+}
+main p {
+    text-align: center;
+    color:white;
+}
+.search{
+position: absolute;
+top:70%;
+left: 35%;
+padding-bottom: 20px;
+
+}
+input{
+    width: 400px;
+    padding:15px;
+    border-radius: 50px;
+}
+button{
+    position: absolute;
+    top:99%;
+    left:35%;
+    padding: 20px;
+    font-size: 20xp;
+    font-weight: 900;
+    background-color: orange;
+    border-radius: 30px;
+
+}
+button:hover{
+    background-color: red;
+    color:yellow;
+}
